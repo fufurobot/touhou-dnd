@@ -20,5 +20,6 @@ build-backend = "uv_build"
 dev = [
     "flake8>=7.3.0",
     "marimo>=0.23.8",
+    "nodejs-bin[cmd]>=18.4.0a4",
     "pytest>=9.0.3",
 ]
